@@ -8,7 +8,6 @@ $bugs = [];
 if (isset($_GET['search'])) {
     $search_query = $_GET['search'];
     
-    // খাতার রিকোয়ারমেন্ট অনুযায়ী র স্ট্রিং কনk্যাটিনেশন (Vulnerable Query)
     $sql = "SELECT * FROM faculty WHERE name = '" . $search_query . "'";
     $result = $conn->query($sql);
     
