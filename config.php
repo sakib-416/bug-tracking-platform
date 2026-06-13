@@ -1,6 +1,6 @@
 <?php
-$host = 'localhost';
-$db_user = 'sakib'; 
+$host    = 'localhost';
+$db_user = 'sakib';
 $db_pass = 'sakib';
 $db_name = 'sqli';
 
